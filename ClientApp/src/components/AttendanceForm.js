@@ -1,4 +1,4 @@
-﻿import React, { useState } from "react";
+import React, { useState } from "react";
 import axios from "axios";
 import VandelliGardenImage3 from '../images/Vandelli garden 3.jpg';
 import './style/AttendanceForm.css';
@@ -46,7 +46,7 @@ const AttendanceForm = ({ apiEndpoint, currentLanguage, }) => {
 
     return (
         <div className="attendance-form">
-            <img className="img-form" src={VandelliGardenImage3} />
+            <img className="img-form" alt="dining hall" src={VandelliGardenImage3} />
             <div className="form-div">
                 <div className="form-body">
                     <h2 className="attendanceForm-Title">

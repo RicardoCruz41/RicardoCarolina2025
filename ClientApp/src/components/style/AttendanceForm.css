@@ -63,8 +63,9 @@
     border-radius: 20px;
     color: white;
     background: black;
-    box-shadow:none;
-    width:100%;
+    box-shadow: none;
+    width: 100%;
+    font-size: calc(0.5vw + 0.5vh + 0.8vmin);
 }
 
 @media (max-width: 1334px) {

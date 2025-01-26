@@ -11,7 +11,7 @@ const App = ({ switchLanguage, locale }) => {
     return (
         <div style={{ background:"#fcf8eb" }}>
         <div className="home-div">
-              <img className="home-image" src={VandelliGardenImage} />
+                <img className="home-image" alt="wedding venue" src={VandelliGardenImage} />
               <div className="language-dropdown">
                   <select
                         className="language-select"
