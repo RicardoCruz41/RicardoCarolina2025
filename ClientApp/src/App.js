@@ -27,9 +27,10 @@ const App = ({ switchLanguage, locale }) => {
                     <WeddingCountdown></WeddingCountdown>
                 </div>
             </div>
-            <TimeAndLocation />
-            <AttendanceForm apiEndpoint="https://localhost:7050/Attendance/SendAttendanceConfirmation" currentLanguage={locale} />
             <br />
+            <TimeAndLocation />
+            <br />
+            <AttendanceForm apiEndpoint="https://localhost:7050/Attendance/SendAttendanceConfirmation" currentLanguage={locale} />
             <br />
           <GiftDetails/>
     </div>

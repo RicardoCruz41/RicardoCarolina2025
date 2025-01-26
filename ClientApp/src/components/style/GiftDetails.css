@@ -19,9 +19,9 @@
 
 /* Gift message text overlay */
 .gift-message {
-    width: 50%;
+    width: 70%;
     position: absolute;
-    font-size: calc(0.5vw + 0.5vh + 0.2vmin);
+    font-size: calc(0.5vw + 0.5vh + 0.3vmin);
     background: #fcf8eb;
     text-align: center;
     color: black;
