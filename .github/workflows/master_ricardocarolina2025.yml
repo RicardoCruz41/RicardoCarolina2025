@@ -21,6 +21,24 @@ jobs:
         with:
           dotnet-version: '6.0.x'
 
+      - name: Install Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: '18'
+
+      - name: Install React dependencies
+        run: npm install
+        working-directory: ./ClientApp
+
+      - name: Build React app
+        run: npm run build
+        working-directory: ./ClientApp
+
+      - name: Move React build to wwwroot
+        run: |
+          if (Test-Path -Path './wwwroot') { Remove-Item -Recurse -Force './wwwroot' }
+          Move-Item -Path './ClientApp/build' -Destination './wwwroot'
+
       - name: Build with dotnet
         run: dotnet build --configuration Release
 
@@ -47,13 +65,13 @@ jobs:
         uses: actions/download-artifact@v4
         with:
           name: .net-app
-      
+
       - name: Login to Azure
         uses: azure/login@v2
         with:
-          client-id: ${{ secrets.AZUREAPPSERVICE_CLIENTID_E09B00547FF74AEBA361762C86154932 }}
-          tenant-id: ${{ secrets.AZUREAPPSERVICE_TENANTID_9E92B7A646F144E6924C364CBAD60111 }}
-          subscription-id: ${{ secrets.AZUREAPPSERVICE_SUBSCRIPTIONID_A08A327F2C5B47C2BC0BA7B90369E218 }}
+          client-id: ${{ secrets.AZUREAPPSERVICE_CLIENTID }}
+          tenant-id: ${{ secrets.AZUREAPPSERVICE_TENANTID }}
+          subscription-id: ${{ secrets.AZUREAPPSERVICE_SUBSCRIPTIONID }}
 
       - name: Deploy to Azure Web App
         id: deploy-to-webapp
@@ -62,4 +80,3 @@ jobs:
           app-name: 'RicardoCarolina2025'
           slot-name: 'Production'
           package: .
-          
