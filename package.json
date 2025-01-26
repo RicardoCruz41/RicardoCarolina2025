@@ -2,5 +2,15 @@
   "dependencies": {
     "axios": "^1.7.9",
     "react-countdown": "^2.3.6"
+  },
+  "devDependencies": {
+    "gh-pages": "^6.3.0"
+  },
+  "homepage": "https://RicardoCruz41.github.io/RicardoCarolina2025",
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   }
 }
