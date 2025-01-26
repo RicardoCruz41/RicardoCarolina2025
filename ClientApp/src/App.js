@@ -30,7 +30,7 @@ const App = ({ switchLanguage, locale }) => {
             <br />
             <TimeAndLocation />
             <br />
-            <AttendanceForm apiEndpoint="https://localhost:7050/Attendance/SendAttendanceConfirmation" currentLanguage={locale} />
+            <AttendanceForm apiEndpoint="https://ricardocarolina2025-efdpfjcwf2g3aqe4.westeurope-01.azurewebsites.net/Attendance/SendAttendanceConfirmation" currentLanguage={locale} />
             <br />
           <GiftDetails/>
     </div>
