@@ -1,0 +1,20 @@
+{
+  "timeAndLocation": "Time and Location",
+  "timeAndLocation-details": "Friday, 12th of September 2025, 17H",
+  "countdownDays": "Days",
+  "countdownHours": "Hours",
+  "countdownMinutes": "Minutes",
+  "countdownSeconds": "Seconds",
+  "attendanceForm-Title": "Attendance Confirmation",
+  "attendanceForm-Name": "Name",
+  "atendanceForm-Email": "Email",
+  "attendanceForm-FoodRestrictions": "Food Restrictions",
+  "attendanceForm-InAttendance": "In Attendance?",
+  "attendanceForm-InAttendance-Yes": "Yes",
+  "attendanceForm-InAttendance-No": "No",
+  "attendanceForm-Message": "Message",
+  "attendanceForm-Submit": "Submit",
+  "gift-title": "Want to give us a gift?",
+  "gift-message": "The best gift you could give us is your attendance!",
+  "gift-message2": "Besides that, if you want to help us out with our new house decor or our honeymoon to Japan feel free to send us a token of your appreciation through the methods available below:"
+}

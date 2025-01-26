@@ -1,0 +1,90 @@
+﻿.navbar {
+    display: flex;
+    background-color: transparent;
+    color: white;
+    padding: 10px 20px;
+    top: 0;
+    left: 0;
+    position: absolute;
+    z-index: 1000;
+    width: 100%;
+}
+
+.navbar-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.navbar-brand {
+    font-size: calc(1vw + 1vh + 0.25vmin);
+    margin-right: auto;
+}
+
+.navbar-toggle {
+    display: none;
+    font-size: calc(1vw + 1vh + 0.25vmin);
+    color: white;
+    background: none;
+    border: none;
+    cursor: pointer;
+    margin-left: auto;
+}
+
+.navbar-menu {
+    display: flex;
+    float: right;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    margin-left: auto;
+}
+
+.navbar a.active {
+    color: white;
+    border-bottom-color: white;
+}
+
+.navbar a:hover {
+    color: white;
+    border-bottom-color: white;
+    transition: width 0.35s ease 0s;
+}
+
+.navbar-item {
+    margin-left: 20px;
+    font-size: calc(1vw + 1vh + 0.25vmin);
+    cursor: pointer;
+}
+
+.navLink {
+    text-decoration: none;
+    color: white;
+    border-bottom: 3px solid transparent;
+}
+
+@media(max-width: 768px) {
+    .navbar-toggle {
+        display: block;
+    }
+
+    .navbar-menu {
+        display: none;
+        flex-direction: column;
+        position: absolute;
+        top: 100%;
+        right: 0;
+        z-index: 1000;
+        border: 2px solid white;
+    }
+
+    .navbar-menu.open {
+        display: flex;
+    }
+
+    .navbar-item {
+        margin: 10px 0;
+        text-align: center;
+    }
+}

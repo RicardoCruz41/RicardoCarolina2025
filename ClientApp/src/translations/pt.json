@@ -1,0 +1,20 @@
+{
+  "timeAndLocation": "Local e Hora",
+  "timeAndLocation-details": "Sexta-feira, 12 de Setembro 2025, 17H",
+  "countdownDays": "Dias",
+  "countdownHours": "Horas",
+  "countdownMinutes": "Minutos",
+  "countdownSeconds": "Segundos",
+  "attendanceForm-Title": "Confirmação de Prensença",
+  "attendanceForm-Name": "Nome",
+  "attendanceForm-Email": "Email",
+  "attendanceForm-FoodRestrictions": "Restrições Alimentares",
+  "attendanceForm-InAttendance": "Estarei Presente?",
+  "attendanceForm-InAttendance-Yes": "Sim",
+  "attendanceForm-InAttendance-No": "Não",
+  "attendanceForm-Message": "Mensagem",
+  "attendanceForm-Submit": "Enviar",
+  "gift-title": "Quer dar-nos um presente?",
+  "gift-message": "O melhor presente que nos pode dar é estar presente!",
+  "gift-message2": "Para além disso, se quiser ajudar-nos com a decoração da nossa nova casa ou com a nossa lua de mel no Japão, dê-nos uma lembrança através dos seguintes métodos:"
+}

@@ -1,0 +1,73 @@
+﻿.attendance-form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: #3a6f57;
+}
+
+.img-form {
+    float: left; 
+    width: 65%;
+    height: 65%;
+}
+
+.form-div {
+    float: right;
+    width: 35%;
+    height: 35%;
+}
+
+.form-body {
+    padding: 20px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 12px;
+    display: inline-block;
+}
+
+.text-input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.radio-input {
+    margin-right: 5px;
+}
+
+.message-input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    resize: none;
+}
+
+.submit-button {
+    border-radius: 20px;
+    color: white;
+    background: transparent;
+}
+
+@media (max-width: 1334px) {
+    .img-form{
+        width:100%;
+        height:100%;
+    }
+    .attendance-form {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .form-div {
+        max-width: none;
+        width: 90%;
+    }
+}
