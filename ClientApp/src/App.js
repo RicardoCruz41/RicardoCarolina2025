@@ -15,10 +15,11 @@ const App = ({ switchLanguage, locale }) => {
               <div className="language-dropdown">
                   <select
                         className="language-select"
+                        value={locale}
                         onChange={(e) => switchLanguage(e.target.value)}
                   >
-                      <option value="en">EN</option>
-                      <option value="pt">PT</option>
+                        <option value="pt">PT</option>
+                        <option value="en">EN</option>
                   </select>
               </div>
                 <h1 className="brideGroom-names"> Ricardo & Carolina</h1>

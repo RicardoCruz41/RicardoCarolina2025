@@ -2,9 +2,11 @@ import React, { useState } from "react";
 import axios from "axios";
 import VandelliGardenImage3 from '../images/Vandelli garden 3.jpg';
 import './style/AttendanceForm.css';
-import { FormattedMessage } from 'react-intl';
+import { FormattedMessage, useIntl } from 'react-intl';
 
 const AttendanceForm = ({ apiEndpoint, currentLanguage, }) => {
+
+    const intl = useIntl();
 
     const [formData, setFormData] = useState({
         name: "",
@@ -28,8 +30,9 @@ const AttendanceForm = ({ apiEndpoint, currentLanguage, }) => {
 
         try {
             await axios.post(apiEndpoint, formData);
-            alert("Thank you for confirming your attendance! You will receive an email soon with the details");
-
+            const message = intl.formatMessage({ id: "attendanceForm-Success", defaultMessage: "Thank you for confirming your attendance! You will receive an email soon with the details" });
+            alert(message);
+ 
             setFormData({
                 name: "",
                 email: "",
@@ -40,7 +43,8 @@ const AttendanceForm = ({ apiEndpoint, currentLanguage, }) => {
             });
 
         } catch (err) {
-            alert("Sorry, something went wrong. Please try again later");
+            const message = intl.formatMessage({ id: "attendanceForm-Error", defaultMessage: "Sorry, something went wrong. Please try again later" });
+            alert(message);
         }
     };
 

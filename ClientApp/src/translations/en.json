@@ -14,6 +14,8 @@
   "attendanceForm-InAttendance-No": "No",
   "attendanceForm-Message": "Message",
   "attendanceForm-Submit": "Submit",
+  "attendanceForm-Success": "Thank you for confirming your attendance! You will receive an email soon with the details",
+  "attendanceForm-Error": "Sorry, something went wrong. Please try again later",
   "gift-title": "Want to give us a gift?",
   "gift-message": "The best gift you could give us is your attendance!",
   "gift-message2": "Besides that, if you want to help us out with our new house decor or our honeymoon to Japan feel free to send us a token of your appreciation through the methods available below:"

@@ -12,7 +12,7 @@ const messages = {
 };
 
 const Main = () => {
-  const [locale, setLocale] = useState('en');
+  const [locale, setLocale] = useState('pt');
 
     const switchLanguage = (lang) => {
         setLocale(lang);
