@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/RicardoCarolina2025/static/css/main.90eb1373.css",
-    "main.js": "/RicardoCarolina2025/static/js/main.245b82fe.js",
+    "main.js": "/RicardoCarolina2025/static/js/main.182bd36b.js",
     "static/media/japan-honeymoon.jpg": "/RicardoCarolina2025/static/media/japan-honeymoon.fd1c0d7f1d6853f9b009.jpg",
     "static/media/Vandelli garden.jpg": "/RicardoCarolina2025/static/media/Vandelli garden.2662696699a3a1a9111e.jpg",
     "static/media/Vandelli garden 3.jpg": "/RicardoCarolina2025/static/media/Vandelli garden 3.4b634522a007691729dc.jpg",
@@ -11,6 +11,6 @@
   },
   "entrypoints": [
     "static/css/main.90eb1373.css",
-    "static/js/main.245b82fe.js"
+    "static/js/main.182bd36b.js"
   ]
 }
