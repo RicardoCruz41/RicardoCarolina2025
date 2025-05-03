@@ -12,7 +12,7 @@ export class TimeAndLocation extends Component {
                         <FormattedMessage id="timeAndLocation" defaultMessage="Time And Location" />
                     </h1>
                     <h4 className="timeLocation-details" >
-                        <FormattedMessage id="timeAndLocation-details" defaultMessage="Friday, 12th of September 2025, 17H" />
+                        <FormattedMessage id="timeAndLocation-details" defaultMessage="Friday, 12th of September 2025, 16:30H" />
                     </h4>
                     <h4 className="timeLocation-details" > Vandelli Botanical Garden</h4>
                     <a className="timeLocation-address" href="https://www.google.com/maps/place/Vandelli+Botanical+Garden/@38.7067187,-9.2017967,17z/data=!3m1!4b1!4m6!3m5!1s0xd1ecb4279c1a8cd:0x800851f444044593!8m2!3d38.7067187!4d-9.2017967!16s%2Fg%2F11s9dk7_r6?entry=ttu&g_ep=EgoyMDI0MTIxMS4wIKXMDSoASAFQAw%3D%3D">
